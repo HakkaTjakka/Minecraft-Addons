@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:concrete",
+    "#minecraft:logs",
+    "#forge:cobblestone",
+    "#forge:hardened_clay",
+    "#forge:brickblock",
+    "#forge:gravel",
+    "#forge:bricknether",
+    "#minecraft:planks",
+    "#forge:dirt"
+  ]
+}

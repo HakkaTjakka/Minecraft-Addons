@@ -1,0 +1,1474 @@
+{
+  "cam72cam/immersiverailroading/Config": {
+    "name": "cam72cam/immersiverailroading/Config",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/common/config/Config;",
+        "target": "cam72cam/immersiverailroading/Config",
+        "values": {
+          "modid": {
+            "value": "immersiverailroading"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/Config$ConfigBalance": {
+    "name": "cam72cam/immersiverailroading/Config$ConfigBalance",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "ModelFuelRequired",
+        "value": {
+          "values": [
+            "Models require fuel"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "FuelRequired",
+        "value": {
+          "values": [
+            "All gauges require fuel"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "slopeMultiplier",
+        "value": {
+          "values": [
+            "Slope Multiplier: Higher numbers increase slowdown, lower numbers decrease slowdown"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "brakeMultiplier",
+        "value": {
+          "values": [
+            "Brake Multiplier: Higher numbers increase slowdown, lower numbers decrease slowdown"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "tractionMultiplier",
+        "value": {
+          "values": [
+            "Traction Multiplier: Higher numbers decreases wheel slip, lower numders increase wheel slip"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "blockWeight",
+        "value": {
+          "values": [
+            "How heavy is a single block in Kg"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "MB_PER_LITER",
+        "value": {
+          "values": [
+            "MilliBuckets per Liter"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "TieCostMultiplier",
+        "value": {
+          "values": [
+            "Cost to place down a tie"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "RailCostMultiplier",
+        "value": {
+          "values": [
+            "Cost to place down a rail"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "BedCostMultiplier",
+        "value": {
+          "values": [
+            "Cost to place down rail bed"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "trackFloatingPercent",
+        "value": {
+          "values": [
+            "If more than X% of the tracks are above non solid blocks, break the track"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "locoDieselFuelEfficiency",
+        "value": {
+          "values": [
+            "Diesel Fuel Efficiency"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "locoSteamFuelEfficiency",
+        "value": {
+          "values": [
+            "Steam Fuel Efficiency"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "locoHeatTimeScale",
+        "value": {
+          "values": [
+            "How fast the steam locomotive should heat up.  1 is real world (slow), 72 is scaled to minecraft time"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "dieselLocoHeatTimeScale",
+        "value": {
+          "values": [
+            "How fast the diesel locomotive should heat up. 1 is real world (slow), 72 is scaled to minecraft time"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "locoWaterUsage",
+        "value": {
+          "values": [
+            "How much water the locomotive should use"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "villagerPayoutPerMeter",
+        "value": {
+          "values": [
+            "How much you get payed per meter the villager traveled (default 1 emerald per km)"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "villagerConductorDistance",
+        "value": {
+          "values": [
+            "Distance the villagers will hear the conductor\u0027s whistle"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "villagerPayoutItems",
+        "value": {
+          "values": [
+            "Villager payout items"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "dieselFuels",
+        "value": {
+          "values": [
+            "Fuels for diesel Locomotives\nNote: Naphtha of Thermal Foundation is internally registered as \u0027refined oil\u0027."
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "waterTypes",
+        "value": {
+          "values": [
+            "Water Substitutes"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "canDieselEnginesOverheat",
+        "value": {
+          "values": [
+            "Allow diesel locomotive engine overheating"
+          ]
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/Config$ConfigDamage": {
+    "name": "cam72cam/immersiverailroading/Config$ConfigDamage",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "explosionsEnabled",
+        "value": {
+          "values": [
+            "Enable Boiler Explosions"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "explosionEnvDamageEnabled",
+        "value": {
+          "values": [
+            "Enable environmental damage of Boiler Explosions"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "entitySpeedDamage",
+        "value": {
+          "values": [
+            "km/h to damage 1 heart on collision"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "TrainsBreakBlocks",
+        "value": {
+          "values": [
+            "Trains should break blocks"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "enableSideBlockClearing",
+        "value": {
+          "values": [
+            "Break blocks around the border of the tracks in creative"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "creativePlacementClearsBlocks",
+        "value": {
+          "values": [
+            "Clear blocsk in creative mode when placing tracks"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "requireSolidBlocks",
+        "value": {
+          "values": [
+            "Requires solid blocks to be placed under the rails"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "dropSnowBalls",
+        "value": {
+          "values": [
+            "Drop snowballs when the train can\u0027t push a block out of the way"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "trainMobExplosionDamage",
+        "value": {
+          "values": [
+            "Trains get destroyed by Mob explosions"
+          ]
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/Config$ConfigDebug": {
+    "name": "cam72cam/immersiverailroading/Config$ConfigDebug",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "serverTickCompensation",
+        "value": {
+          "values": [
+            "Speed up IR stock server tick stepping to compensate for tps lag"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "couplerRange",
+        "value": {
+          "values": [
+            "Range between couplers to try coupling"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "deepSnow",
+        "value": {
+          "values": [
+            "Deep Snow on tracks"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "snowMeltRate",
+        "value": {
+          "values": [
+            "How fast deep snow should melt, 0 \u003d disabled, 20 \u003d fast, 400 \u003d slow"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "keepStockLoaded",
+        "value": {
+          "values": [
+            "Keep rolling stock loaded even when it is not moving"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "debugLog",
+        "value": {
+          "values": [
+            "Print extra chunk loading info"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "debugInfiniteLiquids",
+        "value": {
+          "values": [
+            "DEBUG: Buckets infinite fill/empty tanks"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "ocPollDelayTicks",
+        "value": {
+          "values": [
+            "Time between open computers poll ticks for augments"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "lagServer",
+        "value": {
+          "values": [
+            "DEV ONLY: How much to artifically lag the server (per world)"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "oldNarrowWidth",
+        "value": {
+          "values": [
+            "Old Narrow track placement (single width instead of 3)"
+          ]
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/ConfigGraphics": {
+    "name": "cam72cam/immersiverailroading/ConfigGraphics",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/common/config/Config;",
+        "target": "cam72cam/immersiverailroading/ConfigGraphics",
+        "values": {
+          "modid": {
+            "value": "immersiverailroading"
+          },
+          "name": {
+            "value": "immersiverailroading_graphics"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "GUIPositionHorizontal",
+        "value": {
+          "values": [
+            "Place to draw the Train GUI as a % from the left of the screen"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "GUIPositionVertical",
+        "value": {
+          "values": [
+            "Place to draw the Train GUI as a % from the top of the screen"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "particlesEnabled",
+        "value": {
+          "values": [
+            "Enable Particles"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "enableItemRenderPriming",
+        "value": {
+          "values": [
+            "Enable priming of item render cache.  Disable this if you keep crashing in the world loading screen"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "overrideGPUTexSize",
+        "value": {
+          "values": [
+            "Override GPU Max texture settings !DEV USE ONLY! (-1 \u003d\u003d disable)"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$RequiresMcRestart;",
+        "target": "enableIconCache"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "enableIconCache",
+        "value": {
+          "values": [
+            "Generate static icons.  Drastically reduces render overhead for IR items"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "useShaderFriendlyRender",
+        "value": {
+          "values": [
+            "If you are having render problems in game, try setting this to false"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "limitGraphicsLoadMS",
+        "value": {
+          "values": [
+            "Limit GPU load while models/world is loading.  1 \u003d\u003d slow load, 3 \u003d\u003d reasonable load, 10 \u003d fast load, 100 \u003d as fast as possible"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "textureScale",
+        "value": {
+          "values": [
+            "Scale the textures to reduce GPU memory usage (1 \u003d\u003d normal, 1.5 \u003d\u003d low, 2 \u003d\u003d super low"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "trainsOnTheBrain",
+        "value": {
+          "values": [
+            "Self explanitory"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "speedUnit",
+        "value": {
+          "values": [
+            "What unit to use for speedometer. (kmh, mph or ms)"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "iconCacheSize",
+        "value": {
+          "values": [
+            "Size of icon cache images (larger \u003d slower)"
+          ]
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/ConfigSound": {
+    "name": "cam72cam/immersiverailroading/ConfigSound",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/common/config/Config;",
+        "target": "cam72cam/immersiverailroading/ConfigSound",
+        "values": {
+          "modid": {
+            "value": "immersiverailroading"
+          },
+          "name": {
+            "value": "immersiverailroading_sounds"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$RequiresMcRestart;",
+        "target": "soundEnabled"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "soundEnabled",
+        "value": {
+          "values": [
+            "Enable Sounds"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "soundPressureValve",
+        "value": {
+          "values": [
+            "Enable Pressure Valve Sound"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "soundDistanceScale",
+        "value": {
+          "values": [
+            "Sound Distance Multiplier"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$RequiresMcRestart;",
+        "target": "overrideSoundChannels"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/config/Config$Comment;",
+        "target": "overrideSoundChannels",
+        "value": {
+          "values": [
+            "Re-configure the sound system to use more audo channels (fixes audio cutting out at high speed)"
+          ]
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/ImmersiveRailroading": {
+    "name": "cam72cam/immersiverailroading/ImmersiveRailroading",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "cam72cam/immersiverailroading/ImmersiveRailroading",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12,1.13)"
+          },
+          "dependencies": {
+            "value": "required-after:trackapi@[1.1,);after:immersiveengineering"
+          },
+          "modid": {
+            "value": "immersiverailroading"
+          },
+          "name": {
+            "value": "ImmersiveRailroading"
+          },
+          "version": {
+            "value": "1.5.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "cam72cam.immersiverailroading.proxy.ClientProxy"
+          },
+          "serverSide": {
+            "value": "cam72cam.immersiverailroading.proxy.ServerProxy"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "serverStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V"
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/blocks/PropertyEnum": {
+    "name": "cam72cam/immersiverailroading/blocks/PropertyEnum",
+    "interfaces": [
+      "net/minecraftforge/common/property/IUnlistedProperty"
+    ]
+  },
+  "cam72cam/immersiverailroading/blocks/PropertyItemStack": {
+    "name": "cam72cam/immersiverailroading/blocks/PropertyItemStack",
+    "interfaces": [
+      "net/minecraftforge/common/property/IUnlistedProperty"
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/EntityCoupleableRollingStock$1": {
+    "name": "cam72cam/immersiverailroading/entity/EntityCoupleableRollingStock$1",
+    "interfaces": [
+      "java/util/function/BiConsumer"
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/EntityCoupleableRollingStock$2": {
+    "name": "cam72cam/immersiverailroading/entity/EntityCoupleableRollingStock$2",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/EntityRollingStock": {
+    "name": "cam72cam/immersiverailroading/entity/EntityRollingStock",
+    "interfaces": [
+      "net/minecraftforge/fml/common/registry/IEntityAdditionalSpawnData"
+    ]
+  },
+  "cam72cam/immersiverailroading/gui/ContainerBase": {
+    "name": "cam72cam/immersiverailroading/gui/ContainerBase",
+    "interfaces": [
+      "cam72cam/immersiverailroading/gui/ISyncableSlots"
+    ]
+  },
+  "cam72cam/immersiverailroading/gui/FreightContainer": {
+    "name": "cam72cam/immersiverailroading/gui/FreightContainer",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Linvtweaks/api/container/ChestContainer;",
+        "target": "cam72cam/immersiverailroading/gui/FreightContainer"
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/gui/TrackGui$1": {
+    "name": "cam72cam/immersiverailroading/gui/TrackGui$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "cam72cam/immersiverailroading/inventory/SlotFilter": {
+    "name": "cam72cam/immersiverailroading/inventory/SlotFilter",
+    "interfaces": [
+      "java/util/function/Function"
+    ]
+  },
+  "cam72cam/immersiverailroading/items/ItemRollingStock": {
+    "name": "cam72cam/immersiverailroading/items/ItemRollingStock",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Optional$Interface;",
+        "target": "cam72cam/immersiverailroading/items/ItemRollingStock",
+        "values": {
+          "iface": {
+            "value": "mezz.jei.api.ingredients.ISlowRenderItem"
+          },
+          "modid": {
+            "value": "jei"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/items/ItemRollingStockComponent": {
+    "name": "cam72cam/immersiverailroading/items/ItemRollingStockComponent",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Optional$Interface;",
+        "target": "cam72cam/immersiverailroading/items/ItemRollingStockComponent",
+        "values": {
+          "iface": {
+            "value": "mezz.jei.api.ingredients.ISlowRenderItem"
+          },
+          "modid": {
+            "value": "jei"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/items/ItemTrackBlueprint": {
+    "name": "cam72cam/immersiverailroading/items/ItemTrackBlueprint",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Optional$Interface;",
+        "target": "cam72cam/immersiverailroading/items/ItemTrackBlueprint",
+        "values": {
+          "iface": {
+            "value": "mezz.jei.api.ingredients.ISlowRenderItem"
+          },
+          "modid": {
+            "value": "jei"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/library/Gauge$1": {
+    "name": "cam72cam/immersiverailroading/library/Gauge$1",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/BuildableStockSyncPacket": {
+    "name": "cam72cam/immersiverailroading/net/BuildableStockSyncPacket",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/BuildableStockSyncPacket$Handler": {
+    "name": "cam72cam/immersiverailroading/net/BuildableStockSyncPacket$Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/ItemRailUpdatePacket": {
+    "name": "cam72cam/immersiverailroading/net/ItemRailUpdatePacket",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/ItemRailUpdatePacket$Handler": {
+    "name": "cam72cam/immersiverailroading/net/ItemRailUpdatePacket$Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/KeyPressPacket": {
+    "name": "cam72cam/immersiverailroading/net/KeyPressPacket",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/KeyPressPacket$Handler": {
+    "name": "cam72cam/immersiverailroading/net/KeyPressPacket$Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/KeyPressPacket$Handler$1": {
+    "name": "cam72cam/immersiverailroading/net/KeyPressPacket$Handler$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/MRSSyncPacket": {
+    "name": "cam72cam/immersiverailroading/net/MRSSyncPacket",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/MRSSyncPacket$Handler": {
+    "name": "cam72cam/immersiverailroading/net/MRSSyncPacket$Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/MousePressPacket": {
+    "name": "cam72cam/immersiverailroading/net/MousePressPacket",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/MousePressPacket$Handler": {
+    "name": "cam72cam/immersiverailroading/net/MousePressPacket$Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/MousePressPacket$Handler$1": {
+    "name": "cam72cam/immersiverailroading/net/MousePressPacket$Handler$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/MultiblockSelectCraftPacket": {
+    "name": "cam72cam/immersiverailroading/net/MultiblockSelectCraftPacket",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/MultiblockSelectCraftPacket$Handler": {
+    "name": "cam72cam/immersiverailroading/net/MultiblockSelectCraftPacket$Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/PaintSyncPacket": {
+    "name": "cam72cam/immersiverailroading/net/PaintSyncPacket",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/PaintSyncPacket$Handler": {
+    "name": "cam72cam/immersiverailroading/net/PaintSyncPacket$Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/PassengerPositionsPacket": {
+    "name": "cam72cam/immersiverailroading/net/PassengerPositionsPacket",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/PassengerPositionsPacket$Handler": {
+    "name": "cam72cam/immersiverailroading/net/PassengerPositionsPacket$Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/PassengerPositionsPacket$Handler$1": {
+    "name": "cam72cam/immersiverailroading/net/PassengerPositionsPacket$Handler$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/PreviewRenderPacket": {
+    "name": "cam72cam/immersiverailroading/net/PreviewRenderPacket",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/PreviewRenderPacket$Handler": {
+    "name": "cam72cam/immersiverailroading/net/PreviewRenderPacket$Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/SoundPacket": {
+    "name": "cam72cam/immersiverailroading/net/SoundPacket",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/SoundPacket$Handler": {
+    "name": "cam72cam/immersiverailroading/net/SoundPacket$Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "cam72cam/immersiverailroading/proxy/ChunkManager": {
+    "name": "cam72cam/immersiverailroading/proxy/ChunkManager",
+    "interfaces": [
+      "net/minecraftforge/common/ForgeChunkManager$LoadingCallback",
+      "net/minecraftforge/common/ForgeChunkManager$OrderedLoadingCallback"
+    ]
+  },
+  "cam72cam/immersiverailroading/proxy/ClientProxy": {
+    "name": "cam72cam/immersiverailroading/proxy/ClientProxy",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventBusSubscriber;",
+        "target": "cam72cam/immersiverailroading/proxy/ClientProxy",
+        "value": {
+          "type": "ENUM",
+          "values": [
+            "Lnet/minecraftforge/fml/relauncher/Side;/CLIENT"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerEntities(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTextureStich(Lnet/minecraftforge/client/event/TextureStitchEvent$Pre;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "afterTextureStitch(Lnet/minecraftforge/client/event/TextureStitchEvent$Post;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onModelBakeEvent(Lnet/minecraftforge/client/event/ModelBakeEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onKeyInput(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onClick(Lnet/minecraftforge/client/event/MouseEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onEntityJoin(Lnet/minecraftforge/event/entity/EntityJoinWorldEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onHackRenderEvent(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onOverlayEvent(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Pre;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderMouseover(Lnet/minecraftforge/client/event/DrawBlockHighlightEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onSoundLoad(Lnet/minecraftforge/client/event/sound/SoundLoadEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onWorldLoad(Lnet/minecraftforge/event/world/WorldEvent$Load;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onWorldUnload(Lnet/minecraftforge/event/world/WorldEvent$Unload;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onEnterChunk(Lnet/minecraftforge/event/entity/EntityEvent$EnteringChunk;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onClientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "configChanged(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent$OnConfigChangedEvent;)V"
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/proxy/ClientProxy$1": {
+    "name": "cam72cam/immersiverailroading/proxy/ClientProxy$1",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "cam72cam/immersiverailroading/proxy/ClientProxy$2": {
+    "name": "cam72cam/immersiverailroading/proxy/ClientProxy$2",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "cam72cam/immersiverailroading/proxy/ClientProxy$3": {
+    "name": "cam72cam/immersiverailroading/proxy/ClientProxy$3",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "cam72cam/immersiverailroading/proxy/ClientResourceReloadListener": {
+    "name": "cam72cam/immersiverailroading/proxy/ClientResourceReloadListener",
+    "interfaces": [
+      "net/minecraft/client/resources/IResourceManagerReloadListener"
+    ]
+  },
+  "cam72cam/immersiverailroading/proxy/CommonProxy": {
+    "name": "cam72cam/immersiverailroading/proxy/CommonProxy",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/IGuiHandler"
+    ],
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventBusSubscriber;",
+        "target": "cam72cam/immersiverailroading/proxy/CommonProxy",
+        "values": {
+          "modid": {
+            "value": "immersiverailroading"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerRecipes(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerEntities(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onBlockBreakEvent(Lnet/minecraftforge/event/world/BlockEvent$BreakEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onWorldTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$WorldTickEvent;)V"
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/proxy/CommonProxy$1": {
+    "name": "cam72cam/immersiverailroading/proxy/CommonProxy$1",
+    "interfaces": [
+      "java/io/FilenameFilter"
+    ]
+  },
+  "cam72cam/immersiverailroading/proxy/IRCommand$1": {
+    "name": "cam72cam/immersiverailroading/proxy/IRCommand$1",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "cam72cam/immersiverailroading/proxy/ServerProxy": {
+    "name": "cam72cam/immersiverailroading/proxy/ServerProxy",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventBusSubscriber;",
+        "target": "cam72cam/immersiverailroading/proxy/ServerProxy",
+        "value": {
+          "type": "ENUM",
+          "values": [
+            "Lnet/minecraftforge/fml/relauncher/Side;/SERVER"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onEntityJoin(Lnet/minecraftforge/event/entity/EntityJoinWorldEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPlayerJoin(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPlayerLeave(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onServerTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ServerTickEvent;)V"
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/registry/EntityRollingStockDefinition$1": {
+    "name": "cam72cam/immersiverailroading/registry/EntityRollingStockDefinition$1",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/BakedScaledModel": {
+    "name": "cam72cam/immersiverailroading/render/BakedScaledModel",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/block/RailBaseModel": {
+    "name": "cam72cam/immersiverailroading/render/block/RailBaseModel",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/entity/RenderOverride$1": {
+    "name": "cam72cam/immersiverailroading/render/entity/RenderOverride$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/PlateItemModel": {
+    "name": "cam72cam/immersiverailroading/render/item/PlateItemModel",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/RailAugmentItemModel": {
+    "name": "cam72cam/immersiverailroading/render/item/RailAugmentItemModel",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/RailCastItemRender": {
+    "name": "cam72cam/immersiverailroading/render/item/RailCastItemRender",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/RailItemRender": {
+    "name": "cam72cam/immersiverailroading/render/item/RailItemRender",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/StockItemComponentModel": {
+    "name": "cam72cam/immersiverailroading/render/item/StockItemComponentModel",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/StockItemModel": {
+    "name": "cam72cam/immersiverailroading/render/item/StockItemModel",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/TrackBlueprintItemModel": {
+    "name": "cam72cam/immersiverailroading/render/item/TrackBlueprintItemModel",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/multiblock/BoilerRollerRender": {
+    "name": "cam72cam/immersiverailroading/render/multiblock/BoilerRollerRender",
+    "interfaces": [
+      "cam72cam/immersiverailroading/render/multiblock/IMultiblockRender"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/multiblock/CastingRender": {
+    "name": "cam72cam/immersiverailroading/render/multiblock/CastingRender",
+    "interfaces": [
+      "cam72cam/immersiverailroading/render/multiblock/IMultiblockRender"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/multiblock/PlateRollerRender": {
+    "name": "cam72cam/immersiverailroading/render/multiblock/PlateRollerRender",
+    "interfaces": [
+      "cam72cam/immersiverailroading/render/multiblock/IMultiblockRender"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/multiblock/RailRollerRender": {
+    "name": "cam72cam/immersiverailroading/render/multiblock/RailRollerRender",
+    "interfaces": [
+      "cam72cam/immersiverailroading/render/multiblock/IMultiblockRender"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/multiblock/SteamHammerRender": {
+    "name": "cam72cam/immersiverailroading/render/multiblock/SteamHammerRender",
+    "interfaces": [
+      "cam72cam/immersiverailroading/render/multiblock/IMultiblockRender"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/rail/TranslatedModel": {
+    "name": "cam72cam/immersiverailroading/render/rail/TranslatedModel",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/sound/ClientSound": {
+    "name": "cam72cam/immersiverailroading/sound/ClientSound",
+    "interfaces": [
+      "cam72cam/immersiverailroading/sound/ISound"
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver": {
+    "name": "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver",
+    "interfaces": [
+      "li/cil/oc/api/driver/DriverBlock"
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver$AugmentManagerBase": {
+    "name": "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver$AugmentManagerBase",
+    "interfaces": [
+      "li/cil/oc/api/driver/NamedBlock"
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver$DetectorAugment": {
+    "name": "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver$DetectorAugment",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "info(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():table -- returns an info dump about the current car"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "consist(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():table -- returns an info dump about the current consist"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "getTag(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():table -- gets the stock\u0027s tag"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "setTag(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():table -- sets the stock\u0027s tag"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "getAugmentType(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():string -- returns the current augment type"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "getPos(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():array -- returns the position of the augment"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver$LocoControlAugment": {
+    "name": "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver$LocoControlAugment",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "setThrottle(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function(double) -- sets the locomotive throttle"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "setBrake(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function(double) -- sets the locomotive brake"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "horn(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function() -- fires the locomotive horn"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "getAugmentType(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():string -- returns the current augment type"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "getPos(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():array -- returns the position of the augment"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/tile/TileMultiblock": {
+    "name": "cam72cam/immersiverailroading/tile/TileMultiblock",
+    "interfaces": [
+      "net/minecraft/util/ITickable"
+    ]
+  },
+  "cam72cam/immersiverailroading/tile/TileMultiblock$3": {
+    "name": "cam72cam/immersiverailroading/tile/TileMultiblock$3",
+    "interfaces": [
+      "net/minecraftforge/items/IItemHandlerModifiable"
+    ]
+  },
+  "cam72cam/immersiverailroading/tile/TileRailBase": {
+    "name": "cam72cam/immersiverailroading/tile/TileRailBase",
+    "interfaces": [
+      "trackapi/lib/ITrack",
+      "net/minecraft/util/ITickable"
+    ]
+  },
+  "cam72cam/immersiverailroading/tile/TileRailPreview": {
+    "name": "cam72cam/immersiverailroading/tile/TileRailPreview",
+    "interfaces": [
+      "net/minecraft/util/ITickable"
+    ]
+  },
+  "cam72cam/immersiverailroading/track/BuilderIterator": {
+    "name": "cam72cam/immersiverailroading/track/BuilderIterator",
+    "interfaces": [
+      "cam72cam/immersiverailroading/track/IIterableTrack"
+    ]
+  },
+  "cam72cam/immersiverailroading/track/BuilderSwitch": {
+    "name": "cam72cam/immersiverailroading/track/BuilderSwitch",
+    "interfaces": [
+      "cam72cam/immersiverailroading/track/IIterableTrack"
+    ]
+  }
+}

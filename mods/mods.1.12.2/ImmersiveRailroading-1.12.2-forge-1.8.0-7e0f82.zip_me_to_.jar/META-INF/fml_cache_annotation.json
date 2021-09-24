@@ -1,0 +1,2515 @@
+{
+  "cam72cam/immersiverailroading/Config": {
+    "name": "cam72cam/immersiverailroading/Config",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "cam72cam/immersiverailroading/Config",
+        "value": {
+          "value": "Configuration File"
+        }
+      },
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/config/ConfigFile$Name;",
+        "target": "cam72cam/immersiverailroading/Config",
+        "value": {
+          "value": "general"
+        }
+      },
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/config/ConfigFile$File;",
+        "target": "cam72cam/immersiverailroading/Config",
+        "value": {
+          "value": "immersiverailroading.cfg"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/Config$ConfigBalance": {
+    "name": "cam72cam/immersiverailroading/Config$ConfigBalance",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/config/ConfigFile$Name;",
+        "target": "cam72cam/immersiverailroading/Config$ConfigBalance",
+        "value": {
+          "value": "balance"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "ModelFuelRequired",
+        "value": {
+          "value": "Models require fuel"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "FuelRequired",
+        "value": {
+          "value": "All gauges require fuel"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "slopeMultiplier",
+        "value": {
+          "value": "Slope Multiplier: Higher numbers increase slowdown, lower numbers decrease slowdown"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "brakeMultiplier",
+        "value": {
+          "value": "Brake Multiplier: Higher numbers increase slowdown, lower numbers decrease slowdown"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "tractionMultiplier",
+        "value": {
+          "value": "Traction Multiplier: Higher numbers decreases wheel slip, lower numders increase wheel slip"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "blockWeight",
+        "value": {
+          "value": "How heavy is a single block in Kg"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "MB_PER_LITER",
+        "value": {
+          "value": "MilliBuckets per Liter"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "TieCostMultiplier",
+        "value": {
+          "value": "Cost to place down a tie"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "RailCostMultiplier",
+        "value": {
+          "value": "Cost to place down a rail"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "BedCostMultiplier",
+        "value": {
+          "value": "Cost to place down rail bed"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "trackFloatingPercent",
+        "value": {
+          "value": "If more than X% of the tracks are above non solid block, break the track"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "locoDieselFuelEfficiency",
+        "value": {
+          "value": "Diesel Fuel Efficiency"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "locoSteamFuelEfficiency",
+        "value": {
+          "value": "Steam Fuel Efficiency"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "locoHeatTimeScale",
+        "value": {
+          "value": "How fast the steam locomotive should heat up.  1 is real internal (slow), 72 is scaled to minecraft time"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "dieselLocoHeatTimeScale",
+        "value": {
+          "value": "How fast the diesel locomotive should heat up. 1 is real internal (slow), 72 is scaled to minecraft time"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "locoWaterUsage",
+        "value": {
+          "value": "How much water the locomotive should use"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "villagerPayoutPerMeter",
+        "value": {
+          "value": "How much you getContents payed per meter the villager traveled (default 1 emerald per km)"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "villagerConductorDistance",
+        "value": {
+          "value": "Distance the villagers will hear the conductor\u0027s whistle"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "villagerPayoutItems",
+        "value": {
+          "value": "Villager payout items (ore dict)"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "dieselFuels",
+        "value": {
+          "value": "Fuels for diesel Locomotives\nNote: Naphtha of Thermal Foundation is internally registered as \u0027refined oil\u0027."
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "waterTypes",
+        "value": {
+          "value": "Water Substitutes"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "canDieselEnginesOverheat",
+        "value": {
+          "value": "Allow diesel locomotive engine overheating"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "RadioEquipmentRequired",
+        "value": {
+          "value": "Only select Locomotives with suitable equipment can be radio-controlled"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "RadioRange",
+        "value": {
+          "value": "Range of radio-control, positive integer"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "RadioCostPerMetre",
+        "value": {
+          "value": "IEnergy cost (RF) per radio transmission per metre"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "DesignGaugeLock",
+        "value": {
+          "value": "Prevent stock from being built outside the recommended and model gauges"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "AnglePlacementSegmentation",
+        "value": {
+          "value": "Angle Placement Segmentation"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "machinePowerFactor",
+        "value": {
+          "value": "Machine power factor (0 means no power required)"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/Config$ConfigDamage": {
+    "name": "cam72cam/immersiverailroading/Config$ConfigDamage",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/config/ConfigFile$Name;",
+        "target": "cam72cam/immersiverailroading/Config$ConfigDamage",
+        "value": {
+          "value": "damage"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "explosionsEnabled",
+        "value": {
+          "value": "Enable Boiler Explosions"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "explosionEnvDamageEnabled",
+        "value": {
+          "value": "Enable environmental damage of Boiler Explosions"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "entitySpeedDamage",
+        "value": {
+          "value": "km/h to damage 1 heart on collision"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "TrainsBreakBlocks",
+        "value": {
+          "value": "Trains should break block"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "enableSideBlockClearing",
+        "value": {
+          "value": "Break block around the border of the tracks in creative"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "creativePlacementClearsBlocks",
+        "value": {
+          "value": "Clear blocsk in creative mode when placing tracks"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "requireSolidBlocks",
+        "value": {
+          "value": "Requires solid block to be placed under the rails"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "dropSnowBalls",
+        "value": {
+          "value": "Drop snowballs when the train can\u0027t push a block out of the way"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "trainMobExplosionDamage",
+        "value": {
+          "value": "Trains getContents destroyed by Mob explosions"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/Config$ConfigDebug": {
+    "name": "cam72cam/immersiverailroading/Config$ConfigDebug",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/config/ConfigFile$Name;",
+        "target": "cam72cam/immersiverailroading/Config$ConfigDebug",
+        "value": {
+          "value": "debug"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "serverTickCompensation",
+        "value": {
+          "value": "Speed up IR stock server onTick stepping to compensate for tps lag"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "couplerRange",
+        "value": {
+          "value": "Range between couplers to try coupling"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "deepSnow",
+        "value": {
+          "value": "Deep Snow on tracks"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "snowAccumulateRate",
+        "value": {
+          "value": "How fast snow should accumulate, 0 \u003d disabled, 20 \u003d fast, 400 \u003d slow"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "snowMeltRate",
+        "value": {
+          "value": "How fast snow should melt, 0 \u003d disabled, 20 \u003d fast, 400 \u003d slow"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "keepStockLoaded",
+        "value": {
+          "value": "Keep rolling stock loaded even when it is not moving"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "debugLog",
+        "value": {
+          "value": "Print extra chunk loading info"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "debugInfiniteLiquids",
+        "value": {
+          "value": "DEBUG: Buckets infinite fill/empty tanks"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "ocPollDelayTicks",
+        "value": {
+          "value": "Time between open computers poll ticks for augments"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "lagServer",
+        "value": {
+          "value": "DEV ONLY: How much to artifically lag the server (per internal)"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "oldNarrowWidth",
+        "value": {
+          "value": "Old Narrow track placement (single width instead of 3)"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/Config$ConfigPerformance": {
+    "name": "cam72cam/immersiverailroading/Config$ConfigPerformance",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/config/ConfigFile$Name;",
+        "target": "cam72cam/immersiverailroading/Config$ConfigPerformance",
+        "value": {
+          "value": "performance"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "multithreadedStockLoading",
+        "value": {
+          "value": "Use multiple threads when loading stock. This is used on Minecraft\u0027s initial load or when manually reloading stocks."
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/ConfigGraphics": {
+    "name": "cam72cam/immersiverailroading/ConfigGraphics",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "cam72cam/immersiverailroading/ConfigGraphics",
+        "value": {
+          "value": "Configuration File"
+        }
+      },
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/config/ConfigFile$Name;",
+        "target": "cam72cam/immersiverailroading/ConfigGraphics",
+        "value": {
+          "value": "general"
+        }
+      },
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/config/ConfigFile$File;",
+        "target": "cam72cam/immersiverailroading/ConfigGraphics",
+        "value": {
+          "value": "immersiverailroading_graphics.cfg"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "GUIPositionHorizontal",
+        "value": {
+          "value": "Place to draw the Train GUI as a % from the left of the screen"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "GUIPositionVertical",
+        "value": {
+          "value": "Place to draw the Train GUI as a % from the top of the screen"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "particlesEnabled",
+        "value": {
+          "value": "Enable Particles"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "trainsOnTheBrain",
+        "value": {
+          "value": "Self explanatory"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "speedUnit",
+        "value": {
+          "value": "What unit to use for speedometer. (kmh, mph or ms)"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "textureCacheSeconds",
+        "value": {
+          "value": "How long to keep textures in memory after they have left the screen (higher numbers \u003d smoother game play, lower numbers \u003d less GPU memory used)"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/ConfigSound": {
+    "name": "cam72cam/immersiverailroading/ConfigSound",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "cam72cam/immersiverailroading/ConfigSound",
+        "value": {
+          "value": "Configuration File"
+        }
+      },
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/config/ConfigFile$Name;",
+        "target": "cam72cam/immersiverailroading/ConfigSound",
+        "value": {
+          "value": "general"
+        }
+      },
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/config/ConfigFile$File;",
+        "target": "cam72cam/immersiverailroading/ConfigSound",
+        "value": {
+          "value": "immersiverailroading_sound.cfg"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "soundEnabled",
+        "value": {
+          "value": "Enable Sounds"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "soundPressureValve",
+        "value": {
+          "value": "Enable Pressure Valve Sound"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "soundDistanceScale",
+        "value": {
+          "value": "Sound Distance Multiplier"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/config/ConfigFile$Comment;",
+        "target": "overrideSoundChannels",
+        "value": {
+          "value": "Re-configure the sound system to use more audo channels (fixes audio cutting out at high speed)"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/Mod": {
+    "name": "cam72cam/immersiverailroading/Mod",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "cam72cam/immersiverailroading/Mod",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12,1.13)"
+          },
+          "dependencies": {
+            "value": "required-after:universalmodcore@[1.0,1.1); required-after:trackapi@[1.1,)"
+          },
+          "modid": {
+            "value": "immersiverailroading"
+          },
+          "name": {
+            "value": "Immersive Railroading"
+          },
+          "version": {
+            "value": "1.8.0-7e0f82"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/EntityBuildableRollingStock": {
+    "name": "cam72cam/immersiverailroading/entity/EntityBuildableRollingStock",
+    "interfaces": [
+      "cam72cam/mod/entity/custom/IWorldData"
+    ],
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "isBuilt",
+        "value": {
+          "value": "isBuilt"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "builtItems",
+        "values": {
+          "typeHint": {
+            "type": "CLASS",
+            "value": "Lcam72cam/immersiverailroading/library/ItemComponentType;"
+          },
+          "value": {
+            "value": "builtItems"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/EntityCoupleableRollingStock": {
+    "name": "cam72cam/immersiverailroading/entity/EntityCoupleableRollingStock",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "coupledFront",
+        "value": {
+          "value": "CoupledFront"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "lastKnownFront",
+        "value": {
+          "value": "lastKnownFront"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "frontCouplerEngaged",
+        "value": {
+          "value": "frontCouplerEngaged"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "coupledBack",
+        "value": {
+          "value": "CoupledBack"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "lastKnownRear",
+        "value": {
+          "value": "lastKnownRear"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "backCouplerEngaged",
+        "value": {
+          "value": "backCouplerEngaged"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/EntityCoupleableRollingStock$1": {
+    "name": "cam72cam/immersiverailroading/entity/EntityCoupleableRollingStock$1",
+    "interfaces": [
+      "java/util/function/BiConsumer"
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/EntityMoveableRollingStock": {
+    "name": "cam72cam/immersiverailroading/entity/EntityMoveableRollingStock",
+    "interfaces": [
+      "cam72cam/mod/entity/custom/ICollision"
+    ],
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "frontYaw",
+        "value": {
+          "value": "frontYaw"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "rearYaw",
+        "value": {
+          "value": "rearYaw"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "distanceTraveled",
+        "value": {
+          "value": "distanceTraveled"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "tickPosID",
+        "value": {
+          "value": "tickPosID"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "positions",
+        "values": {
+          "mapper": {
+            "type": "CLASS",
+            "value": "Lcam72cam/immersiverailroading/physics/TickPos$ListTagMapper;"
+          },
+          "value": {
+            "value": "positions"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "tickSkew",
+        "value": {
+          "value": "tickSkew"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/EntityRidableRollingStock": {
+    "name": "cam72cam/immersiverailroading/entity/EntityRidableRollingStock",
+    "interfaces": [
+      "cam72cam/mod/entity/custom/IRidable"
+    ],
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "payingPassengerPositions",
+        "values": {
+          "mapper": {
+            "type": "CLASS",
+            "value": "Lcam72cam/immersiverailroading/entity/EntityRidableRollingStock$PassengerMapper;"
+          },
+          "value": {
+            "value": "payingPassengerPositions"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/EntityRidableRollingStock$PassengerMapper": {
+    "name": "cam72cam/immersiverailroading/entity/EntityRidableRollingStock$PassengerMapper",
+    "interfaces": [
+      "cam72cam/mod/serialization/TagMapper"
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/EntityRollingStock": {
+    "name": "cam72cam/immersiverailroading/entity/EntityRollingStock",
+    "interfaces": [
+      "cam72cam/mod/entity/custom/ITickable",
+      "cam72cam/mod/entity/custom/IClickable",
+      "cam72cam/mod/entity/custom/IKillable"
+    ],
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "defID",
+        "value": {
+          "value": "defID"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "gauge",
+        "value": {
+          "value": "gauge"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "tag",
+        "value": {
+          "value": "tag"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "texture"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "texture",
+        "values": {
+          "mapper": {
+            "type": "CLASS",
+            "value": "Lcam72cam/mod/serialization/StrictTagMapper;"
+          },
+          "value": {
+            "value": "texture"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/Freight": {
+    "name": "cam72cam/immersiverailroading/entity/Freight",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "cargoItems",
+        "value": {
+          "value": "items"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "itemCount"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "itemCount",
+        "value": {
+          "value": "CARGO_ITEMS"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "percentFull"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "percentFull",
+        "value": {
+          "value": "PERCENT_FULL"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/FreightTank": {
+    "name": "cam72cam/immersiverailroading/entity/FreightTank",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "theTank",
+        "value": {
+          "value": "tank"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "fluidAmount"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "fluidAmount",
+        "value": {
+          "value": "FLUID_AMOUNT"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "fluidType"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "fluidType",
+        "values": {
+          "mapper": {
+            "type": "CLASS",
+            "value": "Lcam72cam/mod/serialization/StrictTagMapper;"
+          },
+          "value": {
+            "value": "FLUID_TYPE"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/Locomotive": {
+    "name": "cam72cam/immersiverailroading/entity/Locomotive",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "deadMansSwitch",
+        "value": {
+          "value": "deadMansSwitch"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "throttle"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "throttle",
+        "value": {
+          "value": "THROTTLE"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "airBrake"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "airBrake",
+        "value": {
+          "value": "AIR_BRAKE"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "hornTime"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "hornTime",
+        "value": {
+          "value": "HORN"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "hornPlayer"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "hornPlayer",
+        "values": {
+          "mapper": {
+            "type": "CLASS",
+            "value": "Lcam72cam/mod/serialization/StrictTagMapper;"
+          },
+          "value": {
+            "value": "HORN_PLAYER"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "bellTime"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "bellTime",
+        "value": {
+          "value": "BELL"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/LocomotiveDiesel": {
+    "name": "cam72cam/immersiverailroading/entity/LocomotiveDiesel",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "engineTemperature"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "engineTemperature",
+        "value": {
+          "value": "ENGINE_TEMPERATURE"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "turnedOn"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "turnedOn",
+        "value": {
+          "value": "TURNED_ON"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "engineOverheated"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "engineOverheated",
+        "value": {
+          "value": "ENGINE_OVERHEATED"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/LocomotiveSteam": {
+    "name": "cam72cam/immersiverailroading/entity/LocomotiveSteam",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "boilerPressure"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "boilerPressure",
+        "value": {
+          "value": "boiler_psi"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "boilerTemperature"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "boilerTemperature",
+        "value": {
+          "value": "boiler_temperature"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "pressureValve"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "pressureValve",
+        "value": {
+          "value": "pressure_valve"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "burnTime"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "burnTime",
+        "values": {
+          "mapper": {
+            "type": "CLASS",
+            "value": "Lcam72cam/immersiverailroading/entity/LocomotiveSteam$SlotTagMapper;"
+          },
+          "value": {
+            "value": "burn_time"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/entity/sync/TagSync;",
+        "target": "burnMax"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "burnMax",
+        "values": {
+          "mapper": {
+            "type": "CLASS",
+            "value": "Lcam72cam/immersiverailroading/entity/LocomotiveSteam$SlotTagMapper;"
+          },
+          "value": {
+            "value": "burn_max"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/entity/LocomotiveSteam$SlotTagMapper": {
+    "name": "cam72cam/immersiverailroading/entity/LocomotiveSteam$SlotTagMapper",
+    "interfaces": [
+      "cam72cam/mod/serialization/TagMapper"
+    ]
+  },
+  "cam72cam/immersiverailroading/gui/CastingGUI": {
+    "name": "cam72cam/immersiverailroading/gui/CastingGUI",
+    "interfaces": [
+      "cam72cam/mod/gui/screen/IScreen"
+    ]
+  },
+  "cam72cam/immersiverailroading/gui/PlateRollerGUI": {
+    "name": "cam72cam/immersiverailroading/gui/PlateRollerGUI",
+    "interfaces": [
+      "cam72cam/mod/gui/screen/IScreen"
+    ]
+  },
+  "cam72cam/immersiverailroading/gui/TrackExchangerGui": {
+    "name": "cam72cam/immersiverailroading/gui/TrackExchangerGui",
+    "interfaces": [
+      "cam72cam/mod/gui/screen/IScreen"
+    ]
+  },
+  "cam72cam/immersiverailroading/gui/TrackGui": {
+    "name": "cam72cam/immersiverailroading/gui/TrackGui",
+    "interfaces": [
+      "cam72cam/mod/gui/screen/IScreen"
+    ]
+  },
+  "cam72cam/immersiverailroading/gui/container/FreightContainer": {
+    "name": "cam72cam/immersiverailroading/gui/container/FreightContainer",
+    "interfaces": [
+      "cam72cam/mod/gui/container/IContainer"
+    ]
+  },
+  "cam72cam/immersiverailroading/gui/container/SteamHammerContainer": {
+    "name": "cam72cam/immersiverailroading/gui/container/SteamHammerContainer",
+    "interfaces": [
+      "cam72cam/mod/gui/container/IContainer"
+    ]
+  },
+  "cam72cam/immersiverailroading/gui/container/SteamLocomotiveContainer": {
+    "name": "cam72cam/immersiverailroading/gui/container/SteamLocomotiveContainer",
+    "interfaces": [
+      "cam72cam/mod/gui/container/IContainer"
+    ]
+  },
+  "cam72cam/immersiverailroading/gui/container/TankContainer": {
+    "name": "cam72cam/immersiverailroading/gui/container/TankContainer",
+    "interfaces": [
+      "cam72cam/mod/gui/container/IContainer"
+    ]
+  },
+  "cam72cam/immersiverailroading/gui/container/TenderContainer": {
+    "name": "cam72cam/immersiverailroading/gui/container/TenderContainer",
+    "interfaces": [
+      "cam72cam/mod/gui/container/IContainer"
+    ]
+  },
+  "cam72cam/immersiverailroading/inventory/FilteredStackHandler": {
+    "name": "cam72cam/immersiverailroading/inventory/FilteredStackHandler",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/serialization/TagMapped;",
+        "target": "cam72cam/immersiverailroading/inventory/FilteredStackHandler",
+        "value": {
+          "type": "CLASS",
+          "value": "Lcam72cam/mod/item/ItemStackHandler$TagMapper;"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/inventory/SlotFilter": {
+    "name": "cam72cam/immersiverailroading/inventory/SlotFilter",
+    "interfaces": [
+      "java/util/function/Function"
+    ]
+  },
+  "cam72cam/immersiverailroading/items/BaseItemRollingStock$Data": {
+    "name": "cam72cam/immersiverailroading/items/BaseItemRollingStock$Data",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "def",
+        "value": {
+          "value": "defID"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "gauge",
+        "value": {
+          "value": "gauge"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "texture",
+        "value": {
+          "value": "texture_variant"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/items/ItemCastRail$Data": {
+    "name": "cam72cam/immersiverailroading/items/ItemCastRail$Data",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "gauge",
+        "value": {
+          "value": "gauge"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/items/ItemGoldenSpike$Data": {
+    "name": "cam72cam/immersiverailroading/items/ItemGoldenSpike$Data",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "pos",
+        "value": {
+          "value": "pos"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/items/ItemManual$Data": {
+    "name": "cam72cam/immersiverailroading/items/ItemManual$Data",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "multiblock",
+        "values": {
+          "mapper": {
+            "type": "CLASS",
+            "value": "Lcam72cam/immersiverailroading/items/ItemManual$Data$MBTagMapper;"
+          },
+          "value": {
+            "value": "name"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/items/ItemManual$Data$MBTagMapper": {
+    "name": "cam72cam/immersiverailroading/items/ItemManual$Data$MBTagMapper",
+    "interfaces": [
+      "cam72cam/mod/serialization/TagMapper"
+    ]
+  },
+  "cam72cam/immersiverailroading/items/ItemPlate$Data": {
+    "name": "cam72cam/immersiverailroading/items/ItemPlate$Data",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "type",
+        "value": {
+          "value": "plate"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "def",
+        "value": {
+          "value": "defID"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "gauge",
+        "value": {
+          "value": "gauge"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/items/ItemRadioCtrlCard$Data": {
+    "name": "cam72cam/immersiverailroading/items/ItemRadioCtrlCard$Data",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "linked",
+        "value": {
+          "value": "linked"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/items/ItemRail$Data": {
+    "name": "cam72cam/immersiverailroading/items/ItemRail$Data",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "gauge",
+        "value": {
+          "value": "gauge"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/items/ItemRailAugment$Data": {
+    "name": "cam72cam/immersiverailroading/items/ItemRailAugment$Data",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "gauge",
+        "value": {
+          "value": "gauge"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "augment",
+        "value": {
+          "value": "augment"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/items/ItemRollingStockComponent$Data": {
+    "name": "cam72cam/immersiverailroading/items/ItemRollingStockComponent$Data",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "componentType",
+        "value": {
+          "value": "componentType"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "rawCast",
+        "value": {
+          "value": "raw_cast"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/items/ItemTrackExchanger$Data": {
+    "name": "cam72cam/immersiverailroading/items/ItemTrackExchanger$Data",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "track",
+        "value": {
+          "value": "track"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/items/nbt/RailSettings": {
+    "name": "cam72cam/immersiverailroading/items/nbt/RailSettings",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "gauge",
+        "value": {
+          "value": "gauge"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "type",
+        "value": {
+          "value": "type"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "length",
+        "value": {
+          "value": "length"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "degrees",
+        "values": {
+          "mapper": {
+            "type": "CLASS",
+            "value": "Lcam72cam/immersiverailroading/items/nbt/RailSettings$DegreesMapper;"
+          },
+          "value": {
+            "value": "degrees"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "posType",
+        "value": {
+          "value": "pos_type"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "smoothing",
+        "values": {
+          "mapper": {
+            "type": "CLASS",
+            "value": "Lcam72cam/immersiverailroading/items/nbt/RailSettings$SmoothingMapper;"
+          },
+          "value": {
+            "value": "smoothing"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "direction",
+        "value": {
+          "value": "direction"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "railBed",
+        "value": {
+          "value": "bedItem"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "railBedFill",
+        "value": {
+          "value": "bedFill"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "isPreview",
+        "value": {
+          "value": "isPreview"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "isGradeCrossing",
+        "value": {
+          "value": "isGradeCrossing"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "track",
+        "value": {
+          "value": "track"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/items/nbt/RailSettings$DegreesMapper": {
+    "name": "cam72cam/immersiverailroading/items/nbt/RailSettings$DegreesMapper",
+    "interfaces": [
+      "cam72cam/mod/serialization/TagMapper"
+    ]
+  },
+  "cam72cam/immersiverailroading/items/nbt/RailSettings$SmoothingMapper": {
+    "name": "cam72cam/immersiverailroading/items/nbt/RailSettings$SmoothingMapper",
+    "interfaces": [
+      "cam72cam/mod/serialization/TagMapper"
+    ]
+  },
+  "cam72cam/immersiverailroading/library/Gauge": {
+    "name": "cam72cam/immersiverailroading/library/Gauge",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/serialization/TagMapped;",
+        "target": "cam72cam/immersiverailroading/library/Gauge",
+        "value": {
+          "type": "CLASS",
+          "value": "Lcam72cam/immersiverailroading/library/Gauge$TagMapper;"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/library/Gauge$1": {
+    "name": "cam72cam/immersiverailroading/library/Gauge$1",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "cam72cam/immersiverailroading/library/Gauge$TagMapper": {
+    "name": "cam72cam/immersiverailroading/library/Gauge$TagMapper",
+    "interfaces": [
+      "cam72cam/mod/serialization/TagMapper"
+    ]
+  },
+  "cam72cam/immersiverailroading/net/BuildableStockSyncPacket": {
+    "name": "cam72cam/immersiverailroading/net/BuildableStockSyncPacket",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "stock"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "items",
+        "values": {
+          "typeHint": {
+            "type": "CLASS",
+            "value": "Lcam72cam/immersiverailroading/library/ItemComponentType;"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/net/ItemRailUpdatePacket": {
+    "name": "cam72cam/immersiverailroading/net/ItemRailUpdatePacket",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "settings"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "pos"
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/net/ItemTrackExchangerUpdatePacket": {
+    "name": "cam72cam/immersiverailroading/net/ItemTrackExchangerUpdatePacket",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "track"
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/net/KeyPressPacket": {
+    "name": "cam72cam/immersiverailroading/net/KeyPressPacket",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "type"
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/net/MRSSyncPacket": {
+    "name": "cam72cam/immersiverailroading/net/MRSSyncPacket",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "stock"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "tps"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "positions",
+        "values": {
+          "mapper": {
+            "type": "CLASS",
+            "value": "Lcam72cam/immersiverailroading/physics/TickPos$ListTagMapper;"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/net/MultiblockSelectCraftPacket": {
+    "name": "cam72cam/immersiverailroading/net/MultiblockSelectCraftPacket",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "pos"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "stack"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "mode"
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/net/PreviewRenderPacket": {
+    "name": "cam72cam/immersiverailroading/net/PreviewRenderPacket",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "preview"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "world"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "removed"
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/net/SoundPacket": {
+    "name": "cam72cam/immersiverailroading/net/SoundPacket",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "file"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "pos"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "motion"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "volume"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "pitch"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "distance"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "gauge"
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/physics/TickPos": {
+    "name": "cam72cam/immersiverailroading/physics/TickPos",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "tickID",
+        "value": {
+          "value": "tickID"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "speed",
+        "value": {
+          "value": "speed"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "isOffTrack",
+        "value": {
+          "value": "offTrack"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "position",
+        "value": {
+          "value": "pos"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "frontYaw",
+        "value": {
+          "value": "frontYaw"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "rearYaw",
+        "value": {
+          "value": "rearYaw"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "rotationYaw",
+        "value": {
+          "value": "rotationYaw"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "rotationPitch",
+        "value": {
+          "value": "rotationPitch"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/physics/TickPos$ListTagMapper": {
+    "name": "cam72cam/immersiverailroading/physics/TickPos$ListTagMapper",
+    "interfaces": [
+      "cam72cam/mod/serialization/TagMapper"
+    ]
+  },
+  "cam72cam/immersiverailroading/registry/EntityRollingStockDefinition": {
+    "name": "cam72cam/immersiverailroading/registry/EntityRollingStockDefinition",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/serialization/TagMapped;",
+        "target": "cam72cam/immersiverailroading/registry/EntityRollingStockDefinition",
+        "value": {
+          "type": "CLASS",
+          "value": "Lcam72cam/immersiverailroading/registry/EntityRollingStockDefinition$TagMapper;"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/registry/EntityRollingStockDefinition$TagMapper": {
+    "name": "cam72cam/immersiverailroading/registry/EntityRollingStockDefinition$TagMapper",
+    "interfaces": [
+      "cam72cam/mod/serialization/TagMapper"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/PlateItemModel": {
+    "name": "cam72cam/immersiverailroading/render/item/PlateItemModel",
+    "interfaces": [
+      "cam72cam/mod/render/ItemRender$IItemModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/RailAugmentItemModel": {
+    "name": "cam72cam/immersiverailroading/render/item/RailAugmentItemModel",
+    "interfaces": [
+      "cam72cam/mod/render/ItemRender$IItemModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/RailCastItemRender": {
+    "name": "cam72cam/immersiverailroading/render/item/RailCastItemRender",
+    "interfaces": [
+      "cam72cam/mod/render/ItemRender$IItemModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/RailItemRender": {
+    "name": "cam72cam/immersiverailroading/render/item/RailItemRender",
+    "interfaces": [
+      "cam72cam/mod/render/ItemRender$IItemModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/StockItemComponentModel": {
+    "name": "cam72cam/immersiverailroading/render/item/StockItemComponentModel",
+    "interfaces": [
+      "cam72cam/mod/render/ItemRender$IItemModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/StockItemModel": {
+    "name": "cam72cam/immersiverailroading/render/item/StockItemModel",
+    "interfaces": [
+      "cam72cam/mod/render/ItemRender$ISpriteItemModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/TrackBlueprintItemModel": {
+    "name": "cam72cam/immersiverailroading/render/item/TrackBlueprintItemModel",
+    "interfaces": [
+      "cam72cam/mod/render/ItemRender$IItemModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/item/TrackExchangerModel": {
+    "name": "cam72cam/immersiverailroading/render/item/TrackExchangerModel",
+    "interfaces": [
+      "cam72cam/mod/render/ItemRender$IItemModel"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/multiblock/BoilerRollerRender": {
+    "name": "cam72cam/immersiverailroading/render/multiblock/BoilerRollerRender",
+    "interfaces": [
+      "cam72cam/immersiverailroading/render/multiblock/IMultiblockRender"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/multiblock/CastingRender": {
+    "name": "cam72cam/immersiverailroading/render/multiblock/CastingRender",
+    "interfaces": [
+      "cam72cam/immersiverailroading/render/multiblock/IMultiblockRender"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/multiblock/PlateRollerRender": {
+    "name": "cam72cam/immersiverailroading/render/multiblock/PlateRollerRender",
+    "interfaces": [
+      "cam72cam/immersiverailroading/render/multiblock/IMultiblockRender"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/multiblock/RailRollerRender": {
+    "name": "cam72cam/immersiverailroading/render/multiblock/RailRollerRender",
+    "interfaces": [
+      "cam72cam/immersiverailroading/render/multiblock/IMultiblockRender"
+    ]
+  },
+  "cam72cam/immersiverailroading/render/multiblock/SteamHammerRender": {
+    "name": "cam72cam/immersiverailroading/render/multiblock/SteamHammerRender",
+    "interfaces": [
+      "cam72cam/immersiverailroading/render/multiblock/IMultiblockRender"
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/ComputerCraft$1": {
+    "name": "cam72cam/immersiverailroading/thirdparty/ComputerCraft$1",
+    "interfaces": [
+      "dan200/computercraft/api/peripheral/IPeripheralProvider"
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/ComputerCraft$BasePeripheral": {
+    "name": "cam72cam/immersiverailroading/thirdparty/ComputerCraft$BasePeripheral",
+    "interfaces": [
+      "dan200/computercraft/api/peripheral/IPeripheral"
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver": {
+    "name": "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver",
+    "interfaces": [
+      "li/cil/oc/api/driver/DriverBlock"
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver$AugmentManagerBase": {
+    "name": "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver$AugmentManagerBase",
+    "interfaces": [
+      "li/cil/oc/api/driver/NamedBlock"
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver$DetectorAugment": {
+    "name": "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver$DetectorAugment",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "info(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():table -- returns an info dump about the current car"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "consist(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():table -- returns an info dump about the current consist"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "getTag(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():table -- gets the stock\u0027s tag"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "setTag(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():table -- sets the stock\u0027s tag"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "getAugmentType(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():string -- returns the current augment type"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "getPos(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():array -- returns the position of the augment"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver$LocoControlAugment": {
+    "name": "cam72cam/immersiverailroading/thirdparty/opencomputers/AugmentDriver$LocoControlAugment",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "setThrottle(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function(double) -- sets the locomotive throttle"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "setBrake(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function(double) -- sets the locomotive brake"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "horn(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function() -- fires the locomotive horn"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "bell(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function() -- sets the locomotive bell"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/opencomputers/RadioCtrlCardDriver": {
+    "name": "cam72cam/immersiverailroading/thirdparty/opencomputers/RadioCtrlCardDriver",
+    "interfaces": [
+      "li/cil/oc/api/driver/DriverItem"
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/opencomputers/RadioCtrlCardDriver$RadioCtrlCardManager": {
+    "name": "cam72cam/immersiverailroading/thirdparty/opencomputers/RadioCtrlCardDriver$RadioCtrlCardManager",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "setThrottle(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function(double) -- sets the locomotive throttle"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "setBrake(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function(double) -- sets the locomotive brake"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "horn(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function() -- fires the locomotive horn"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "bell(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function() -- sets the locomotive bell"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "getPos(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():array -- returns the XYZ position of the locomotive"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lli/cil/oc/api/machine/Callback;",
+        "target": "getLinkUUID(Lli/cil/oc/api/machine/Context;Lli/cil/oc/api/machine/Arguments;)[Ljava/lang/Object;",
+        "values": {
+          "doc": {
+            "value": "function():araray -- returns the UUID of the bound loco"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/trackapi/BlockEntityTrackTickable": {
+    "name": "cam72cam/immersiverailroading/thirdparty/trackapi/BlockEntityTrackTickable",
+    "interfaces": [
+      "cam72cam/immersiverailroading/thirdparty/trackapi/ITrack"
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/trackapi/ITrack$1": {
+    "name": "cam72cam/immersiverailroading/thirdparty/trackapi/ITrack$1",
+    "interfaces": [
+      "cam72cam/immersiverailroading/thirdparty/trackapi/ITrack"
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/trackapi/ITrack$2": {
+    "name": "cam72cam/immersiverailroading/thirdparty/trackapi/ITrack$2",
+    "interfaces": [
+      "trackapi/lib/ITrack"
+    ]
+  },
+  "cam72cam/immersiverailroading/thirdparty/trackapi/TileEntityTickableTrack": {
+    "name": "cam72cam/immersiverailroading/thirdparty/trackapi/TileEntityTickableTrack",
+    "interfaces": [
+      "trackapi/lib/ITrack"
+    ]
+  },
+  "cam72cam/immersiverailroading/tile/TileMultiblock": {
+    "name": "cam72cam/immersiverailroading/tile/TileMultiblock",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "replaced",
+        "value": {
+          "value": "replaced"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "offset",
+        "value": {
+          "value": "offset"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "rotation",
+        "value": {
+          "value": "rotation"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "name",
+        "value": {
+          "value": "name"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "craftMode",
+        "value": {
+          "value": "craftMode"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "craftProgress",
+        "value": {
+          "value": "craftProgress"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "craftItem",
+        "value": {
+          "value": "craftItem"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "container"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "energy",
+        "value": {
+          "value": "energyStorage"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/tile/TileMultiblock$1": {
+    "name": "cam72cam/immersiverailroading/tile/TileMultiblock$1",
+    "interfaces": [
+      "cam72cam/mod/item/IInventory"
+    ]
+  },
+  "cam72cam/immersiverailroading/tile/TileRail": {
+    "name": "cam72cam/immersiverailroading/tile/TileRail",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "info",
+        "value": {
+          "value": "info"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "drops",
+        "values": {
+          "mapper": {
+            "type": "CLASS",
+            "value": "Lcam72cam/immersiverailroading/tile/TileRail$DropsMapper;"
+          },
+          "typeHint": {
+            "type": "CLASS",
+            "value": "Lcam72cam/mod/item/ItemStack;"
+          },
+          "value": {
+            "value": "drops"
+          }
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/tile/TileRail$DropsMapper": {
+    "name": "cam72cam/immersiverailroading/tile/TileRail$DropsMapper",
+    "interfaces": [
+      "cam72cam/mod/serialization/TagMapper"
+    ]
+  },
+  "cam72cam/immersiverailroading/tile/TileRailBase": {
+    "name": "cam72cam/immersiverailroading/tile/TileRailBase",
+    "interfaces": [
+      "cam72cam/mod/block/IRedstoneProvider"
+    ],
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "parent",
+        "value": {
+          "value": "parent"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "bedHeight",
+        "value": {
+          "value": "height"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "railHeight",
+        "value": {
+          "value": "railHeight"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "augment",
+        "value": {
+          "value": "augment"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "augmentFilterID",
+        "value": {
+          "value": "augmentFilterID"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "snowLayers",
+        "value": {
+          "value": "snowLayers"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "flexible",
+        "value": {
+          "value": "flexible"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "replaced",
+        "value": {
+          "value": "replaced"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "redstoneMode",
+        "value": {
+          "value": "redstoneMode"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "controlMode",
+        "value": {
+          "value": "controlMode"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "couplerMode",
+        "value": {
+          "value": "couplerMod"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/tile/TileRailPreview": {
+    "name": "cam72cam/immersiverailroading/tile/TileRailPreview",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "item"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "placementInfo"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "customInfo"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "isAboveRails"
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/track/BuilderIterator": {
+    "name": "cam72cam/immersiverailroading/track/BuilderIterator",
+    "interfaces": [
+      "cam72cam/immersiverailroading/track/IIterableTrack"
+    ]
+  },
+  "cam72cam/immersiverailroading/track/BuilderSwitch": {
+    "name": "cam72cam/immersiverailroading/track/BuilderSwitch",
+    "interfaces": [
+      "cam72cam/immersiverailroading/track/IIterableTrack"
+    ]
+  },
+  "cam72cam/immersiverailroading/util/PlacementInfo": {
+    "name": "cam72cam/immersiverailroading/util/PlacementInfo",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/serialization/TagMapped;",
+        "target": "cam72cam/immersiverailroading/util/PlacementInfo",
+        "value": {
+          "type": "CLASS",
+          "value": "Lcam72cam/immersiverailroading/util/PlacementInfo$TagMapper;"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/util/PlacementInfo$TagMapper": {
+    "name": "cam72cam/immersiverailroading/util/PlacementInfo$TagMapper",
+    "interfaces": [
+      "cam72cam/mod/serialization/TagMapper"
+    ]
+  },
+  "cam72cam/immersiverailroading/util/RailInfo": {
+    "name": "cam72cam/immersiverailroading/util/RailInfo",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/serialization/TagMapped;",
+        "target": "cam72cam/immersiverailroading/util/RailInfo",
+        "value": {
+          "type": "CLASS",
+          "value": "Lcam72cam/immersiverailroading/util/RailInfo$TagMapper;"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "settings",
+        "value": {
+          "value": "settings"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "placementInfo",
+        "value": {
+          "value": "placement"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "customInfo",
+        "value": {
+          "value": "custom"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "switchState",
+        "value": {
+          "value": "switchState"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "switchForced",
+        "value": {
+          "value": "switchForced"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcam72cam/mod/serialization/TagField;",
+        "target": "tablePos",
+        "value": {
+          "value": "tablePos"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/util/RailInfo$TagMapper": {
+    "name": "cam72cam/immersiverailroading/util/RailInfo$TagMapper",
+    "interfaces": [
+      "cam72cam/mod/serialization/TagMapper"
+    ]
+  },
+  "cam72cam/immersiverailroading/util/RealBB": {
+    "name": "cam72cam/immersiverailroading/util/RealBB",
+    "interfaces": [
+      "cam72cam/mod/entity/boundingbox/IBoundingBox"
+    ]
+  },
+  "cam72cam/immersiverailroading/util/Speed": {
+    "name": "cam72cam/immersiverailroading/util/Speed",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lcam72cam/mod/serialization/TagMapped;",
+        "target": "cam72cam/immersiverailroading/util/Speed",
+        "value": {
+          "type": "CLASS",
+          "value": "Lcam72cam/immersiverailroading/util/Speed$TagMapper;"
+        }
+      }
+    ]
+  },
+  "cam72cam/immersiverailroading/util/Speed$TagMapper": {
+    "name": "cam72cam/immersiverailroading/util/Speed$TagMapper",
+    "interfaces": [
+      "cam72cam/mod/serialization/TagMapper"
+    ]
+  }
+}

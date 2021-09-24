@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: ImmersiveRailroading
+Implementation-Version: 1.16.4-forge-1.8.0
+Specification-Vendor: immersiverailroading
+Specification-Title: immersiverailroading
+Implementation-Timestamp: 2020-12-13T19:04:49+0000
+Specification-Version: 1
+Implementation-Vendor: immersiverailroading
+
