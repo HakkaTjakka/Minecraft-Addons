@@ -1,0 +1,14 @@
+#Tue Oct 22 05:47:44 CEST 2019
+minlight=0.006
+MobsFlashRed=false
+defskybox=true
+Lens_Flares_Strength=16.0
+emissive_R=1.6
+Volumetric_Lighting=true
+Lens_Flares=true
+Bloom=false
+cloud_height=400.0
+emissive_B=0.4
+uFogDensity=80.0
+emissive_G=0.6
+Fog=false

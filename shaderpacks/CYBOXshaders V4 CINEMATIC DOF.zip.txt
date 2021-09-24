@@ -1,0 +1,5 @@
+#Tue Sep 24 02:58:47 CEST 2019
+CELSHADING=true
+Eye_Brightness=true
+HQ_SHADOW_FILTER=true
+SHADOW_FILTER=true

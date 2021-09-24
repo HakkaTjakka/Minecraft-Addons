@@ -1,0 +1,7 @@
+#Tue Jul 20 02:11:34 CEST 2021
+OldClouds=true
+Rain_Reflect=false
+shadowDistance=150.0
+shadowMapResolution=3072
+WAVING_GRASS=false
+WAVING_LEAVES=false

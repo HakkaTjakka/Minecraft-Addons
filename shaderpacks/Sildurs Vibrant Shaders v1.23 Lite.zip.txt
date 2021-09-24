@@ -1,0 +1,4 @@
+#Mon Oct 07 09:28:12 CEST 2019
+emissive_B=0.0
+emissive_R=0.5
+emissive_G=0.1

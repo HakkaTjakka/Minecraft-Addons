@@ -1,0 +1,6 @@
+#Fri Oct 04 12:17:10 CEST 2019
+SHADOW_FILTER=true
+VIGNETTE=true
+FADING=true
+B_LQ=true
+CELSHADING=true

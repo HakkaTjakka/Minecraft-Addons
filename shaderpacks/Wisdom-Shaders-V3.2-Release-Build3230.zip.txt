@@ -1,0 +1,13 @@
+#Thu Oct 17 15:02:30 CEST 2019
+shadowDistance=256.0
+MODERN=true
+WATER_PARALLAX=false
+FILMIC_CINEMATIC=true
+SSEDAA=true
+FILMIC_CINEMATIC_ANAMORPHIC=false
+SPACE=true
+shadowMapResolution=4096
+HIGH_QUALITY_Crespecular=true
+DOF=true
+SEA_HEIGHT=0.3
+SSR_STEPS=20

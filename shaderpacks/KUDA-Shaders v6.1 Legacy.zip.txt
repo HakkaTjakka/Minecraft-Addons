@@ -1,0 +1,5 @@
+#Tue Sep 24 03:02:43 CEST 2019
+anamorphicLens=true
+dirtyLens=true
+fixUndergroundShadows=true
+shadowDistance=100.0f

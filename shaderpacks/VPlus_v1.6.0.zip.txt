@@ -1,0 +1,8 @@
+#Sat Feb 06 18:04:21 CET 2021
+s_cloudLightHQ=true
+s_clouds=false
+s_skyReflection=true
+s_ssr=true
+setAmbientOcclusion=true
+setFog=false
+setMotionblur=true
